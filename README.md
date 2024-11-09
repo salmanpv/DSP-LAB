@@ -29,7 +29,7 @@
        <li>Using Built in Function</li>
        <li>Using Twiddle Factor</li>
      </ul>
-    <li> Properties of DFT</li>
+    <li>Properties of DFT</li>
     <ul>
      <li>Linearity</li>
      <li>Multiplication</li>
@@ -38,3 +38,7 @@
     </ul>
     <li>Overlap Add and Save</li>
     <li>Implimentation of FIR Filters</li>
+    <li>Familiarization of DSP Hardware</li>
+    <li>Generation of Sine Wave using DSP Kit</li>
+    <li>12. Linear onvolution using DSP Kit</li>
+    
