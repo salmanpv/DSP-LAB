@@ -1,5 +1,5 @@
 # Digital Signal Processing 
- This Repo contains practical experiments in Digital Signal Processing Lab
+ Experiments @ DSP LAB
 ## Platform used
  MATLAB 
 ## Team Members
