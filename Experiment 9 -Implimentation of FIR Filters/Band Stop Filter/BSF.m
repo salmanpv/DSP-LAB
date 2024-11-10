@@ -8,44 +8,44 @@ N=50;
 alpha = (N-1)/2;
 n=0:1:N-1;
 hd=(sin(wcl*(n-alpha+eps))-sin(wc2*(n-alpha+eps))+sin(pi*(n-alpha+eps)))./(pi*(n-alpha+eps));
-%HPFhamming
+%BSFhamming
 w1=hamming(N);
 hn=hd.*w1';
 w=0:0.01:pi;
 h1=freqz(hn,1,w);
 subplot(4,2,1);
 plot(w/pi,10*log10(abs(h1)));
-title('HPF using hamming window');
+title('BSF using hamming window');
 xlabel('normalized frequency');
 ylabel('magnitude in db');
-%HPFhanning
+%BSFhanning
 w2=hanning(N);
 hn=hd.*w2';
 w=0:0.01:pi;
 h2=freqz(hn,1,w);
 subplot(4,2,3);
 plot(w/pi,10*log10(abs(h2)));
-title('HPF using hanning window');
+title('BSF using hanning window');
 xlabel('normalized frequency');
 ylabel('magnitude in db');
-%HPFrect
+%BSFrect
 w3=boxcar(N);
 hn=hd.*w3';
 w=0:0.01:pi;
 h3=freqz(hn,1,w);
 subplot(4,2,5);
 plot(w/pi,10*log10(abs(h3)));
-title('HPF using rectangular window');
+title('BSF using rectangular window');
 xlabel('normalized frequency');
 ylabel('magnitude in db');
-%HPFtri
+%BSFtri
 w4=bartlett(N);
 hn=hd.*w4';
 w=0:0.01:pi;
 h4=freqz(hn,1,w);
 subplot(4,2,7);
 plot(w/pi,10*log10(abs(h4)));
-title('HPF using triangular window');
+title('BSF using triangular window');
 xlabel('normalized frequency');
 ylabel('magnitude in db');
 %WINDOWS
