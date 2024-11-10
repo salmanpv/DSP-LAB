@@ -1,12 +1,6 @@
 # Digital Signal Processing 
- Experiments @ DSP LAB
-## Platform used
- MATLAB 
-## Team Members
-  <ol>
-    <li><a href="https://github.com/salmanpv">Salmanul Faris PV</a></li>
-  </ol>
-  
+ Record of Experiments at Digital Signal Processing Laboratory
+
  ## Table of Contents
    <ol>
      <li>Simulation of Basic Test Signals</li>
@@ -41,4 +35,4 @@
     <li>Familiarization of DSP Hardware</li>
     <li>Generation of Sine Wave using DSP Kit</li>
     <li>Linear onvolution using DSP Kit</li>
-    
+   </ol>
