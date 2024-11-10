@@ -1,6 +1,6 @@
 # Digital Signal Processing 
 Record of Experiments at Digital Signal Processing Laboratory
-### Platform used
+## Platform used
  - MATLAB
 ## Table of Contents
 1. Simulation of Basic Test Signals
