@@ -1,5 +1,5 @@
 ## Table of Contents
-1. [Introduction](#introduction)
+1. [Introduction]
 2. [Installation](#installation)
    - [Requirements](#requirements)
    - [Setup](#setup)
